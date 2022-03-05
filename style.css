@@ -1,0 +1,150 @@
+/* start setting awal */
+
+h1,h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+/* end setting awal */
+
+/* Media Query UI MOBILE screen */
+@media only screen and (max-width: 520px) {
+    #pricing {
+        padding: 5% 10%;
+        background-color: #EAF5EB;
+    }
+    .container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .kartu {
+        margin-top: 10%;
+    }
+}
+
+/* Media Query UI normal TABLET ONLY screen */
+@media only screen and (min-width: 520px) {
+    #pricing {
+        padding: 5% 10%;
+        background-color: #EAF5EB;
+    }
+    .container {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .kartu {
+        margin-top: 10%;
+    }
+}
+
+/* Media Query UI normal DESKTOP screen */
+@media only screen and (min-width: 990px) {
+    #pricing {
+        padding: 5% 10%;
+        background-color: #EAF5EB;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* Media Query UI large DESKTOP screen */
+@media only screen and (min-width: 1101px) {
+    #pricing {
+        padding: 5% 15%;
+        background-color: #EAF5EB;
+    }
+}
+
+
+
+/********* start CSS KARTU *********/
+
+.pricing-header {
+    text-align: center;
+}
+
+.kartu {
+    border: 3px solid;
+    border-radius: 30px;
+    padding: 15px 35px;
+}
+
+.header-kartu {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.harga-kartu {
+    margin-top: 13%;
+    font-size: 2.5rem;
+}
+
+.span-harga {
+    font-size: 1.5rem;
+}
+
+.content-kartu {
+    margin-top: 13%;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* agar kartu tetap berukuran sama, maka yang list hanya 1 diakalin dengan kedua list nya di hiddem. */
+.p2-kartu1 {
+    visibility: hidden;
+}
+
+.p3-kartu1 {
+    visibility: hidden;
+}
+
+
+
+/********* start CSS TOMBOL CTA *********/
+.cta-kartu {
+    text-align: center;
+}
+
+.tombol-cta {
+    height: 56px;
+}
+
+/* TOMBOL MOBILE */
+@media only screen and (max-width: 512px) {
+    .tombol-cta {
+        width: 100%;
+        margin-top: 7%;
+        border-radius: 40px;
+    }
+}
+/* TOMBOL TABLET */
+@media only screen and (min-width: 513px) {
+    .tombol-cta {
+        width: 80%;
+        margin-top: 5%;
+        border-radius: 40px;
+    }
+}
+
+/* TOMBOL DESKTOP */
+@media only screen and (min-width: 990px) {
+    .tombol-cta {
+        width: 100%;
+        margin-top: 10%;
+    }
+}
+/********* end CSS TOMBOL CTA *********/
+
+
+
+/********* end CSS KARTU *********/
+
+
+
